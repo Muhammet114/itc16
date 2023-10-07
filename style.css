@@ -1,0 +1,131 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.heading{
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.dv-sent{
+    justify-content: center;
+    text-align: center;
+}
+.card-meu{
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.card-img{
+   background-color: black;
+    border: 1px solid black;
+}
+.card-mon{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+}
+.noor-rt{
+    width: 500px;
+
+    background-color: black;
+    border: 1px solid black;
+}
+.dv-text{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+.logocard{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+.main{
+    text-transform: uppercase;    
+}
+.btn{
+    background-color: black;
+color: white;
+padding: 5px 10px;
+border: 1px solid black;
+width: 10%;
+
+list-style-type: none;
+}
+.info-header{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: space-around;
+}
+.header{
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    font-size: 40px;
+   
+}
+.lc{
+    color:#e3e102;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    padding: 4px;
+    width: 100%;
+    justify-content: right;
+}
+.menu li{
+    padding: 10px;
+    font-size: 23px;
+}
+.menu-header{
+    display: flex;
+    width: 100%;
+}
+.search{
+    padding: 20px;
+}
+@media (max-width : 426px) {
+    .lc{
+        color:#020202;
+    }
+    .card-meu{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .card-mon{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        display:flex;
+        flex-direction: column;
+    }
+   .card-logo{
+        width:100%;
+    }
+    .noor-rt{
+        width: 100%;
+    }
+    .card-mon{
+        flex-direction: column-reverse;
+    }
+}
